@@ -81,7 +81,9 @@ public class Triangle extends GeometricObject{
 	    	//1. Check if obj is triangle,
 	    	//   if it not, return false.
 	    	if(obj instanceof Triangle) {
-	    		//
+	    		//Test 2 sides are equal
+	    		
+	    		return true;
 	    	}
 	    	else {
 	    		return false;
